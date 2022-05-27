@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-               fg #echo "Test is completed"
+               echo "Test is completed"
             }
         }
         stage('Deploy') { 
